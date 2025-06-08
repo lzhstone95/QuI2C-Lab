@@ -54,6 +54,7 @@ header {
 
 .profile-info {
     flex: 2;
+    font-style: var(--primary-color);
 }
 
 .profile-image {
