@@ -386,7 +386,7 @@ nav {
     }
     
     .nav-links a {
-        font-size: 0.9rem;
+        font-size: 24px;
         padding: 0.4rem 0;
     }
     
@@ -1361,7 +1361,7 @@ footer {
     }
     
     .nav-links a {
-        font-size: 0.9rem;
+        font-size: 24px;
         padding: 8px 0;
     }
     
