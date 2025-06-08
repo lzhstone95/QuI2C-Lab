@@ -1,5 +1,5 @@
 {
-  "name": "ALEXANDER \"ALEX\" MORGAN 🍀",
+  "name": "量子信息与智能计算",
   "subtitle": "PhD@CS, WCU &nbsp;&nbsp;  BEng@EE, NTU<br><a href=\"#\">Center for AI and Smart Systems</a><br><a href=\"#\">Autonomous Systems and Connected Technologies Lab (ASCT)</a>",
   "socialLinks": [
     {
@@ -49,6 +49,5 @@
       "icon": "<i class=\"fab fa-researchgate\"></i>",
       "target": "_blank"
     }
-  ],
-  "profileImage": "assets/profile.jpg"
+  ]
 } 
