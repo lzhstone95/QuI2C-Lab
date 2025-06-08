@@ -42,7 +42,7 @@ a:hover {
 /* Header Styles */
 header {
     padding: 3rem 0;
-    background-color: var(--secondary-color);
+    /*background-color: var(--secondary-color);*/
     border-bottom: 1px solid var(--border-color);
 }
 
