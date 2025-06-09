@@ -1435,7 +1435,7 @@ footer {
 .service-list {
     list-style-type: none;
     padding-left: 0;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     /*gap: 0.75rem;8*/
 }
 
