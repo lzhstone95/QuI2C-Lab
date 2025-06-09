@@ -44,7 +44,7 @@ a:hover {
 header {
     padding: 2.25rem 0;
     background-image: url('assets/ahu-background.jpg');
-    background-color: rgba(145, 143, 143, 0.4); /* 灰色，带有一定透明度 */
+    background-color: rgba(145, 143, 143, 0.5); /* 灰色，带有一定透明度 */
     border-bottom: 1px solid var(--border-color);
 }
 
