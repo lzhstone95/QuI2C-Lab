@@ -246,7 +246,7 @@ nav {
         height: auto;
         line-height: normal;
         padding: 0.5rem 0;
-        font-size: 0.95rem;
+        font-size: 1.25rem;
         white-space: nowrap;
     }
     
@@ -390,7 +390,7 @@ nav {
     }
     
     .nav-links a {
-        font-size: 0.9rem;
+        font-size: 1.25rem;
         padding: 0.4rem 0;
     }
     
@@ -1365,7 +1365,7 @@ footer {
     }
     
     .nav-links a {
-        font-size: 0.9rem;
+        font-size: 1.25rem;
         padding: 8px 0;
     }
     
