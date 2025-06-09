@@ -4,7 +4,7 @@
     --primary-color: #0066cc;
     --secondary-color: #f8f9fa;
     --text-color: #333;
-    --light-text: #757575;
+    --light-text: #474646;
     --border-color: #e0e0e0;
     --section-spacing: 5rem;
     --timeline-color: #f0f0f0;
@@ -80,7 +80,7 @@ h1 {
 .subtitle {
     font-size: 1.25rem;
     line-height: 2.25rem;
-    color: #ffffff;
+    color: var(--light-text);
     margin-bottom: 1.25rem;
 }
 
