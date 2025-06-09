@@ -1,10 +1,10 @@
 {
-  "name": "ALEXANDER \"ALEX\" MORGAN 🍀",
-  "subtitle": "PhD@CS, WCU &nbsp;&nbsp;  BEng@EE, NTU<br><a href=\"#\">Center for AI and Smart Systems</a><br><a href=\"#\">Autonomous Systems and Connected Technologies Lab (ASCT)</a>",
+"name": "Quantum Information and Intelligent Computing Lab",
+  "subtitle": "PhD@CS, WCU &nbsp;&nbsp;  BEng@EE, NTU<br><a href=\"https://www.ahu.edu.cn/\">Anhui University</a><br><a href=\"https://dy.ahu.edu.cn/\">School of Electronic and Information Engineering</a>",
   "socialLinks": [
     {
       "type": "email",
-      "url": "mailto:alex.morgan@example.com",
+      "url": "mailto:leestone95@ahu.edu.cn",
       "icon": "<i class=\"fas fa-envelope\"></i>"
     },
     {
