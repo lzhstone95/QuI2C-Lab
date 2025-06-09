@@ -78,8 +78,9 @@ h1 {
 
 .subtitle {
     font-size: 1.25rem;
+    line-height: 1.25rem;
     color: var(--light-text);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .contact-info {
