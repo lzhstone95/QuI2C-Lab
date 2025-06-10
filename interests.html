@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究动态-QuI2C Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-info">
+                    <!-- Profile info will be loaded from JSON -->
+                </div>
+                <div class="profile-image">
+                    <img src="assets/ahu-logo.svg" id="profile-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="all-news.html" class="active">研究动态</a></li>
+                <li><a href="#research-interests">研究方向</a></li>
+                <li><a href="all-members.html">团队成员</a></li>
+                <li><a href="all-publications.html">研究成果</a></li>
+                <li><a href="all-projects.html">承担项目</a></li>
+                <li><a href="#awards">奖励荣誉</a></li>
+                <li><a href="#location">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="research-interests" class="section">
+            <div class="container">
+                <h2 class="section-title">研究方向</h2>
+                <div class="research-areas">
+                    <div class="research-area">
+                        <i class="fas fa-tags"></i>
+                        <h3>Renewable Energy Systems</h3>
+                        <ul class="research-list">
+                            <li><strong>Solar Energy Storage Solutions:</strong> Developing next-generation materials and systems for efficient solar energy capture and long-term storage to address intermittency challenges.</li>
+                            <li><strong>Microgrid Optimization:</strong> Creating adaptive control algorithms for resilient community microgrids that balance multiple renewable energy sources and storage systems.</li>
+                        </ul>
+                    </div>
+
+                    <div class="research-area">
+                        <i class="fas fa-sitemap"></i>
+                        <h3>Renewable Energy Systems</h3>
+                        <ul class="research-list">
+                            <li><strong>Solar Energy Storage Solutions:</strong> Developing next-generation materials and systems for efficient solar energy capture and long-term storage to address intermittency challenges.</li>
+                            <li><strong>Microgrid Optimization:</strong> Creating adaptive control algorithms for resilient community microgrids that balance multiple renewable energy sources and storage systems.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="research-areas">
+                    <div class="research-area">
+                        <i class="fas fa-paper-plane"></i>
+                        <h3>Renewable Energy Systems</h3>
+                        <ul class="research-list">
+                            <li><strong>Solar Energy Storage Solutions:</strong> Developing next-generation materials and systems for efficient solar energy capture and long-term storage to address intermittency challenges.</li>
+                            <li><strong>Microgrid Optimization:</strong> Creating adaptive control algorithms for resilient community microgrids that balance multiple renewable energy sources and storage systems.</li>
+                        </ul>
+                    </div>
+
+                    <div class="research-area">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Environmental Sustainability</h3>
+                        <ul class="research-list">
+                            <li><strong>Carbon Capture Technologies:</strong> Investigating novel materials and processes for direct air capture of CO₂ and its conversion into valuable products or stable storage forms.</li>
+                            <li><strong>Water Treatment Innovation:</strong> Designing membrane-based filtration systems for removing emerging contaminants and recovering valuable resources from wastewater streams.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="copyright-year"></span> Quantum Information and Intelligent Computing Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set copyright year
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        
+        // Mobile navigation horizontal scroll handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelector('.nav-links');
+            if (navLinks) {
+                // Check if scrollable
+                const checkScrollable = () => {
+                    const isScrollable = navLinks.scrollWidth > navLinks.clientWidth;
+                    document.querySelector('nav .container').classList.toggle('has-scroll', isScrollable);
+                };
+                
+                // Check on load and resize
+                checkScrollable();
+                window.addEventListener('resize', checkScrollable);
+                
+                // Scroll to active link
+                const activeLink = navLinks.querySelector('a.active');
+                if (activeLink) {
+                    const activeLi = activeLink.closest('li');
+                    if (activeLi) {
+                        setTimeout(() => {
+                            // Center the active link
+                            const scrollPos = activeLi.offsetLeft - (navLinks.clientWidth / 2) + (activeLi.offsetWidth / 2);
+                            navLinks.scrollLeft = Math.max(0, scrollPos);
+                        }, 100);
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
