@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>研究动态-QuI2C Lab</title>
+    <title>承担项目-QuI2C Lab</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -38,14 +38,18 @@
     </nav>
 
     <main>
-        <section id="all-news" class="section">
+        <section id="publications" class="section">
             <div class="container">
-                <h2 class="section-title">All News & Updates</h2>
-                <div id="all-news-container" class="news-list">
-                    <!-- News items will be dynamically loaded here from news.json -->
+                <h2 class="section-title">学术论文</h2>
+                <p class="section-description">*通讯作者</p>
+                <div class="publication-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="preprint">Preprints</button>
+                    <button class="filter-btn" data-filter="accepted">Conference</button>
+                    <button class="filter-btn" data-filter="first-author">Journal</button>
                 </div>
-                <div class="back-to-home">
-                    <a href="../index.html" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
+                <div class="publications-list">
+                    <!-- Publications items will be dynamically loaded here from publications.json -->
                 </div>
             </div>
         </section>
