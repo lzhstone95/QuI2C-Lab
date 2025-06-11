@@ -380,7 +380,7 @@ function makeAllLinksOpenInNewTab() {
         // Skip navigation links (links that start with #) and links without href
         if (href && !href.startsWith('#')) {
             // Set target to _blank to open in a new tab
-            link.setAttribute('target', '_blank');
+            link.setAttribute('target', '_self');
         }
     });
 }
