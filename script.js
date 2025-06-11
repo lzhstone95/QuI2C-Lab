@@ -452,10 +452,7 @@ function loadPartialPublications() {
         .then(response => response.json())
         .then(publications => {
             // 只获取前8条数据
-            const partialPublications = publications.slice(0, 8);
-            
-            // 清空容器
-            partialContainer.innerHTML = '<h3>精选论文（前8篇）</h3>';
+            const partialPublications = publications.slice(0, 10);
             
             // 渲染前8条数据
             partialPublications.forEach(pub => {

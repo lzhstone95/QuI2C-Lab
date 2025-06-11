@@ -767,6 +767,12 @@ nav {
     gap: 1.5rem;
 }
 
+.part-publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .publication {
     display: flex;
     background-color: var(--secondary-color);
