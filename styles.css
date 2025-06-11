@@ -75,12 +75,12 @@ h1 {
     font-size: 2.0rem;
     margin-bottom: 1.0rem;
     font-weight: 700;
-    color: rgb(4, 4, 190);
+    color: var(--primary-color);
     letter-spacing: -0.02em;
 }
 
 .subtitle-highlight {
-    background-color: #0366D6; /* 使用现有蓝色变量 */
+    background-color: #005eca; /* 使用现有蓝色变量 */
     color: white !important; /* 白色文字 */
     padding: 0.25rem 0.5rem; /* 文字内边距 */
     display: inline; /* 背景仅包裹文字 */
