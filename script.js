@@ -438,7 +438,7 @@ function setupLinkObserver() {
     observer.observe(targetNode, config);
 }
 
-// 新增：加载前8条数据到部分显示区域
+// 新增：加载前6条数据到部分显示区域
 function loadPartialPublications() {
     let publicationsJsonPath = 'data/all-publications.json';
     if (window.location.pathname.includes('/pages/')) {
@@ -452,7 +452,7 @@ function loadPartialPublications() {
         .then(response => response.json())
         .then(publications => {
             // 只获取前8条数据
-            const partialPublications = publications.slice(0, 10);
+            const partialPublications = publications.slice(0, 6);
             
             // 渲染前8条数据
             partialPublications.forEach(pub => {
