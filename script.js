@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Load publications data from JSON file
     loadPublications();
-    loadrecentPublications();
     
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
@@ -204,93 +203,6 @@ function loadPublications() {
     }
 
     const publicationsList = document.querySelector('.publications-list');
-    if (!publicationsList) return;
-    
-    // Clear existing publications
-    publicationsList.innerHTML = '';
-    
-    fetch(publicationsJsonPath)
-        .then(response => response.json())
-        .then(publications => {
-            publications.forEach(pub => {
-                const pubElement = document.createElement('div');
-                const classes = ['publication', pub.type];
-                if (pub.isFirstAuthor) classes.push('first-author');
-                pubElement.className = classes.join(' ');
-                
-                // Create publication number
-                const numberElement = document.createElement('span');
-                numberElement.className = 'pub-number';
-                numberElement.textContent = pub.number;
-                
-                // Create publication content container
-                const contentElement = document.createElement('div');
-                contentElement.className = 'pub-content';
-                
-                // Add title
-                const titleElement = document.createElement('h3');
-                titleElement.textContent = pub.title;
-                contentElement.appendChild(titleElement);
-                
-                // Add authors
-                const authorsElement = document.createElement('p');
-                authorsElement.className = 'authors';
-                authorsElement.innerHTML = pub.authors;
-                contentElement.appendChild(authorsElement);
-                
-                // Add venue if it exists
-                if (pub.venue) {
-                    const venueElement = document.createElement('p');
-                    venueElement.className = 'venue';
-                    venueElement.textContent = pub.venue;
-                    contentElement.appendChild(venueElement);
-                }
-                
-                // Add tags
-                const tagsContainer = document.createElement('div');
-                tagsContainer.className = 'pub-tags';
-                
-                pub.tags.forEach(tag => {
-                    if (tag.link) {
-                        const tagLink = document.createElement('a');
-                        tagLink.href = tag.link;
-                        tagLink.className = `tag ${tag.class}`;
-                        tagLink.textContent = tag.text;
-                        // Add target="_blank" for links
-                        if (!tag.link.startsWith('#')) {
-                            tagLink.setAttribute('target', '_blank');
-                        }
-                        tagsContainer.appendChild(tagLink);
-                    } else {
-                        const tagSpan = document.createElement('span');
-                        tagSpan.className = `tag ${tag.class}`;
-                        tagSpan.textContent = tag.text;
-                        tagsContainer.appendChild(tagSpan);
-                    }
-                });
-                
-                contentElement.appendChild(tagsContainer);
-                
-                // Combine elements and add to publications list
-                pubElement.appendChild(numberElement);
-                pubElement.appendChild(contentElement);
-                publicationsList.appendChild(pubElement);
-            });
-        })
-        .catch(error => {
-            console.error('Error loading publications data:', error);
-        });
-}
-
-
-// Function to load recet publications from JSON
-function loadrecentPublications() {
-    let publicationsJsonPath = 'data/publications.json';
-    if (window.location.pathname.includes('/pages/')) {
-        publicationsJsonPath = '../data/recent-publications.json';
-    }
-
-    const publicationsList = document.querySelector('.recent-publications-list');
     if (!publicationsList) return;
     
     // Clear existing publications
