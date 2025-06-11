@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Load publications data from JSON file
     loadPublications();
+    loadrecentPublications();
     
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
