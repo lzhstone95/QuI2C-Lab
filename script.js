@@ -197,7 +197,7 @@ function loadProfileInfo() {
 
 // Function to load all publications from JSON
 function loadPublications() {
-    let publicationsJsonPath = 'data/publications.json';
+    let publicationsJsonPath = 'data/all-publications.json';
     if (window.location.pathname.includes('/pages/')) {
         publicationsJsonPath = '../data/all-publications.json';
     }
