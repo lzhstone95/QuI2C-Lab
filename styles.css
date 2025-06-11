@@ -82,8 +82,9 @@ h1 {
 .subtitle {
     font-size: 2.25rem;
     line-height: 2.25rem;
-    color: var(--light-text);
+    color: white;
     margin-bottom: 1.25rem;
+    background-color: blue;
 }
 
 .contact-info {
