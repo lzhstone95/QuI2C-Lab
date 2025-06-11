@@ -592,7 +592,7 @@ nav {
 
 /* Research Areas */
 .research-areas {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 2rem;
