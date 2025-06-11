@@ -283,7 +283,7 @@ function loadPublications() {
 
 
 // Function to load recet publications from JSON
-function loadPublications() {
+function loadrecentPublications() {
     let publicationsJsonPath = 'data/publications.json';
     if (window.location.pathname.includes('/pages/')) {
         publicationsJsonPath = '../data/recent-publications.json';
