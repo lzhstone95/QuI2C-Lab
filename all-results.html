@@ -47,25 +47,6 @@
                 </div>
                 <div class="publications-list">
                     <!-- Publications items will be dynamically loaded here from publications.json -->
-                <script>
-                    fetch('data/all-publications.json')
-                      .then(res => res.json())
-                      .then(data => {
-                        // 只取前5条
-                        const publications = data.slice(0, 5);
-                        const container = document.getElementById('publications-list');
-                        container.innerHTML = publications.map((pub, idx) => `
-                          <div class="publication${pub.first_author ? ' first-author' : ''}">
-                            <div class="pub-number">${idx + 1}</div>
-                            <div class="pub-content">
-                              <h3>${pub.title}</h3>
-                              <div class="authors">${pub.authors}</div>
-                              <div class="venue">${pub.venue}</div>
-                            </div>
-                          </div>
-                        `).join('');
-                      });
-                </script>
                 </div>
             </div>
         </section>
