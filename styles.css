@@ -79,12 +79,19 @@ h1 {
     letter-spacing: -0.02em;
 }
 
+.subtitle-highlight {
+    background-color: blue; /* 使用现有蓝色变量 */
+    color: white !important; /* 白色文字 */
+    padding: 0.25rem 0.5rem; /* 文字内边距 */
+    display: inline; /* 背景仅包裹文字 */
+    line-height: 1.5; /* 确保背景高度适中 */
+}
+
 .subtitle {
     font-size: 2.25rem;
     line-height: 2.25rem;
-    color: white;
+    color: var(--light-text);
     margin-bottom: 1.25rem;
-    background-color: #0227ce;
 }
 
 .contact-info {
