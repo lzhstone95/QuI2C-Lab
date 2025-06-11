@@ -436,4 +436,105 @@ function setupLinkObserver() {
     
     // Start observing the target node for configured mutations
     observer.observe(targetNode, config);
-} 
+}
+
+// 新增：加载前8条数据到部分显示区域
+function loadPartialPublications() {
+    let publicationsJsonPath = 'data/all-publications.json';
+    if (window.location.pathname.includes('/pages/')) {
+        publicationsJsonPath = '../data/all-publications.json';
+    }
+
+    const partialContainer = document.querySelector('.part-publications-list');
+    if (!partialContainer) return;
+    
+    fetch(publicationsJsonPath)
+        .then(response => response.json())
+        .then(publications => {
+            // 只获取前8条数据
+            const partialPublications = publications.slice(0, 8);
+            
+            // 清空容器
+            partialContainer.innerHTML = '<h3>精选论文（前8篇）</h3>';
+            
+            // 渲染前8条数据
+            partialPublications.forEach(pub => {
+                const pubElement = document.createElement('div');
+                const classes = ['publication', pub.type];
+                if (pub.isFirstAuthor) classes.push('first-author');
+                pubElement.className = classes.join(' ');
+                
+                // 创建出版物编号
+                const numberElement = document.createElement('span');
+                numberElement.className = 'pub-number';
+                numberElement.textContent = pub.number;
+                
+                // 创建内容容器
+                const contentElement = document.createElement('div');
+                contentElement.className = 'pub-content';
+                
+                // 添加标题
+                const titleElement = document.createElement('h3');
+                titleElement.textContent = pub.title;
+                contentElement.appendChild(titleElement);
+                
+                // 添加作者
+                const authorsElement = document.createElement('p');
+                authorsElement.className = 'authors';
+                authorsElement.innerHTML = pub.authors;
+                contentElement.appendChild(authorsElement);
+                
+                // 添加期刊/会议信息
+                if (pub.venue) {
+                    const venueElement = document.createElement('p');
+                    venueElement.className = 'venue';
+                    venueElement.textContent = pub.venue;
+                    contentElement.appendChild(venueElement);
+                }
+                
+                // 添加标签
+                const tagsContainer = document.createElement('div');
+                tagsContainer.className = 'pub-tags';
+                
+                pub.tags.forEach(tag => {
+                    if (tag.link) {
+                        const tagLink = document.createElement('a');
+                        tagLink.href = tag.link;
+                        tagLink.className = `tag ${tag.class}`;
+                        tagLink.textContent = tag.text;
+                        tagLink.target = '_blank';
+                        tagsContainer.appendChild(tagLink);
+                    } else {
+                        const tagSpan = document.createElement('span');
+                        tagSpan.className = `tag ${tag.class}`;
+                        tagSpan.textContent = tag.text;
+                        tagsContainer.appendChild(tagSpan);
+                    }
+                });
+                
+                contentElement.appendChild(tagsContainer);
+                
+                // 组合元素
+                pubElement.appendChild(numberElement);
+                pubElement.appendChild(contentElement);
+                partialContainer.appendChild(pubElement);
+            });
+        })
+        .catch(error => {
+            console.error('Error loading partial publications data:', error);
+        });
+}
+
+// 在现有DOMContentLoaded事件中添加调用
+document.addEventListener('DOMContentLoaded', function() {
+    // 原有代码...
+    loadProfileInfo();
+    makeAllLinksOpenInNewTab();
+    setupLinkObserver();
+    loadPublications();
+    
+    // 添加新函数调用
+    loadPartialPublications();
+    
+    // 原有代码...
+});
