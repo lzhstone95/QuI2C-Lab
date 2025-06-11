@@ -80,7 +80,7 @@ h1 {
 }
 
 .subtitle-highlight {
-    background-color: #0d57aa; /* 使用现有蓝色变量 */
+    background-color: #0a488f; /* 使用现有蓝色变量 */
     color: white !important; /* 白色文字 */
     padding: 0.25rem 0.5rem; /* 文字内边距 */
     display: inline; /* 背景仅包裹文字 */
