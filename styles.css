@@ -1458,11 +1458,11 @@ footer {
     padding: 0.5rem 0.9rem;
     background-color: var(--secondary-color);
     border-radius: 4px;
-    font-size: 1rem;
-    line-height: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     color: var(--text-color);
     transition: all 0.2s ease;
-    display: inline-block;
+    display: block;
     margin-bottom: 0.8rem;
     border: 1px solid rgba(0, 0, 0, 0.03);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
