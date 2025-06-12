@@ -1450,8 +1450,8 @@ footer {
 .service-list {
     list-style-type: none;
     padding-left: 0;
-    /*flex-wrap: wrap;*/
-    /*gap: 0.75rem;8*/
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 .service-list li {
@@ -1463,7 +1463,7 @@ footer {
     color: var(--text-color);
     transition: all 0.2s ease;
     display: inline-block;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
     border: 1px solid rgba(0, 0, 0, 0.03);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
