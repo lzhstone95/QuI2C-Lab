@@ -660,6 +660,8 @@ nav {
     position: relative;
     margin: 2rem 0;
     padding-left: 30px;
+    column-count: 2;
+    column-gap: 32px;
 }
 
 .timeline::before {
@@ -681,6 +683,7 @@ nav {
     padding: 20px;
     background-color: transparent;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    break-inside: avoid;
 }
 
 .timeline-item:hover {
