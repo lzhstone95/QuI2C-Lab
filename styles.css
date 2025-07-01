@@ -598,6 +598,13 @@ nav {
     }
 }
 
+.responsive-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
 /* Research Areas */
 .research-areas {
     display: block;
