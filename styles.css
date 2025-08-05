@@ -42,12 +42,8 @@ a:hover {
 
 /* Header Styles */
 header {
-    height: 80vh;
     padding: 2.25rem 0;
     background-image: url('assets/ahu-background.jpg');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
     background-color: rgba(145, 143, 143, 0.5); /* 灰色，带有一定透明度 */
     border-bottom: 1px solid var(--border-color);
 }
@@ -65,11 +61,12 @@ header {
 .profile-image {
     flex: 1;
     text-align: right;
+
 }
 
 #profile-img {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 4px;
     object-fit: cover;
     filter: drop-shadow(rgb(53, 88, 187) 0 4px 12px);
