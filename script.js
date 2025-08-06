@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', function(e) {
             // Only apply smooth scrolling to hash links (internal page links)
             if (this.getAttribute('href').startsWith('#')) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                const targetSection = document.querySelector(targetId);
+    // 只在all-results页面调用loadPartialPublications
+    if (window.location.pathname.includes('all-results')) {
+        loadPartialPublications();
+    }
                 
                 if (targetSection) {
                     window.scrollTo({
