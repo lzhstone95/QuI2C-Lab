@@ -1,11 +1,10 @@
 [
-  
-  {
-    "number": 4,
-    "title": "HybridED: A Hybrid Entanglement Distribution Design for Efficient Quantum Teleportation in Quantum Communication Networks",
-    "authors": "Zhonghui Li, Jian Li, Kaiping Xue*, and Hyundong Shin*",
+    {
+    "number": 5,
+    "title": "Tree-based Networking Design: Towards Future Large-scale Quantum Local Area Networks",
+    "authors": "Zhonghui Li, Yang Yang*, Jian Li, Kaiping Xue*, and Hyundong Shin",
     "type": "preprint",
-    "venue": ", submitted to IEEE Transactions on Communications, 2025.",
+    "venue": "submitted to IEEE Journal on Selected Areas in Communications, 2025.",
     "tags": [
       {
         "text": "Under Review",
@@ -13,6 +12,21 @@
       }
     ]
   },
+  
+  {
+    "number": 4,
+    "title": "HybridED: A Hybrid Entanglement Distribution Design for Efficient Quantum Teleportation in Quantum Communication Networks",
+    "authors": "Zhonghui Li, Jian Li, Kaiping Xue*, and Hyundong Shin*",
+    "type": "preprint",
+    "venue": "submitted to IEEE Transactions on Communications, 2025.",
+    "tags": [
+      {
+        "text": "Under Review",
+        "class": "preprint-tag"
+      }
+    ]
+  },
+
   {
     "number": 3,
     "title": "BC-PQSMDP: Integrating ML-KEM and Blockchain towards Quantum-Resistant Medical Data Protection",
@@ -26,6 +40,7 @@
       }
     ]
   },
+
   {
     "number": 2,
     "title": "Al-Generated Image Detection Algorithm Based on Classical-Quantum Hybrid Neural Network",
@@ -44,6 +59,7 @@
       }
     ]
   },
+
   {
     "number": 1,
     "title": "IPMN: Invertible privacy-preserving mask network with intellectual property protection",
