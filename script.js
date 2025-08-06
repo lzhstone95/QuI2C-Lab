@@ -522,16 +522,3 @@ function loadPartialPublications() {
         });
 }
 
-// 在现有DOMContentLoaded事件中添加调用
-document.addEventListener('DOMContentLoaded', function() {
-    // 原有代码...
-    loadProfileInfo();
-    makeAllLinksOpenInNewTab();
-    setupLinkObserver();
-    loadPublications();
-    
-    // 添加新函数调用
-    loadPartialPublications();
-    
-    // 原有代码...
-});
