@@ -1,4 +1,31 @@
 [
+  
+  {
+    "number": 4,
+    "title": "HybridED: A Hybrid Entanglement Distribution Design for Efficient Quantum Teleportation in Quantum Communication Networks",
+    "authors": "Zhonghui Li, Jian Li, Kaiping Xue*, and Hyundong Shin*",
+    "type": "preprint",
+    "venue": ", submitted to IEEE Transactions on Communications, 2025.",
+    "tags": [
+      {
+        "text": "Under Review",
+        "class": "preprint-tag"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "title": "BC-PQSMDP: Integrating ML-KEM and Blockchain towards Quantum-Resistant Medical Data Protection",
+    "authors": "Wei Wu, Zhonghui Li*, and Yang Yang",
+    "type": "preprint",
+    "venue": "submitted to IEEE Internet of Things Journal, 2025.",
+    "tags": [
+      {
+        "text": "Under Review",
+        "class": "preprint-tag"
+      }
+    ]
+  },
     {
     "number": 2,
     "title": "Al-Generated Image Detection Algorithm Based on Classical-Quantum Hybrid Neural Network",
@@ -20,7 +47,7 @@
   {
     "number": 1,
     "title": "IPMN: Invertible privacy-preserving mask network with intellectual property protection",
-    "authors": "Yang Yang, Xiangjie Huang, Han Fang, Weiming Zhang",
+    "authors": "Yang Yang*, Xiangjie Huang, Han Fang, Weiming Zhang",
     "type": "journal",
     "venue": "Journal of Information Security and Applications, vol. 93, pp. 104149, 2025.",
     "tags": [
@@ -36,47 +63,6 @@
     ]
   },
 
-  {
-    "number": 3,
-    "title": "EnergyNexus: A Novel Framework for Integrated Renewable Energy Management in Urban Environments",
-    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, David Chen, Thomas Wright, Emily White, Robert Williams, James Miller",
-    "type": "preprint",
-    "isFirstAuthor": true,
-    "tags": [
-      {
-        "text": "Preprint",
-        "class": "preprint-tag"
-      },
-      {
-        "text": "PDF",
-        "class": "code-tag",
-        "link": "#"
-      }
-    ]
-  },
-  {
-    "number": 4,
-    "title": "Lifecycle Assessment of Novel Carbon Capture Materials in Industrial Applications",
-    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, David Chen, Emily White, Robert Williams",
-    "type": "preprint",
-    "isFirstAuthor": true,
-    "tags": [
-      {
-        "text": "Preprint",
-        "class": "preprint-tag"
-      },
-      {
-        "text": "PDF",
-        "class": "code-tag",
-        "link": "#"
-      },
-      {
-        "text": "Blog",
-        "class": "code-tag",
-        "link": "#"
-      }
-    ]
-  },
   {
     "number": 5,
     "title": "Sustainable Energy Transitions in Developing Economies: Challenges, Solutions and Future Directions",
