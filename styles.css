@@ -139,7 +139,7 @@ h1 {
 
 /* Navigation Styles */
 nav {
-    background-color: #4c65b8;
+    background-color: #d2d9ee;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -205,7 +205,7 @@ nav {
         left: 0;
         width: 100%;
         z-index: 1000;
-        background-color: #4c65b8;
+        background-color: #d2d9ee;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         overflow: hidden;
     }
