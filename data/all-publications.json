@@ -1,4 +1,22 @@
 [
+    {
+    "number": 2,
+    "title": "Al-Generated Image Detection Algorithm Based on Classical-Quantum Hybrid Neural Network",
+    "authors": "Yang Yang, Xiangjie Huang, Han Fang, Weiming Zhang",
+    "type": "journal",
+    "venue": " Science China Information Sciences, vol. 93, pp. 104149, 2025.",
+    "tags": [
+      {
+        "text": "SCIS",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "#"
+      }
+    ]
+  },
   {
     "number": 1,
     "title": "IPMN: Invertible privacy-preserving mask network with intellectual property protection",
@@ -17,23 +35,7 @@
       }
     ]
   },
-  {
-    "number": 2,
-    "title": "Bio-inspired Filtration Membranes for Advanced Water Purification",
-    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Michael Taylor, David Chen, William Brown, Thomas Wright, Robert Williams",
-    "type": "preprint",
-    "tags": [
-      {
-        "text": "Preprint",
-        "class": "preprint-tag"
-      },
-      {
-        "text": "PDF",
-        "class": "code-tag",
-        "link": "#"
-      }
-    ]
-  },
+
   {
     "number": 3,
     "title": "EnergyNexus: A Novel Framework for Integrated Renewable Energy Management in Urban Environments",
