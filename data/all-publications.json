@@ -1,19 +1,19 @@
 [
   {
     "number": 1,
-    "title": "Sustainable Materials for High-Efficiency Solar Energy Storage Systems",
-    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Jennifer Lee, Michael Taylor, Sarah Johnson, David Chen, Thomas Wright, Robert Williams",
-    "type": "preprint",
-    "isFirstAuthor": true,
+    "title": "IPMN: Invertible privacy-preserving mask network with intellectual property protection",
+    "authors": "Yang Yang, Xiangjie Huang, Han Fang, Weiming Zhang",
+    "type": "journal",
+    "venue": "Journal of Information Security and Applications, vol. 93, pp. 104149, 2025.",
     "tags": [
       {
-        "text": "Preprint",
-        "class": "preprint-tag"
+        "text": "JISA",
+        "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "#"
+        "link": "assets/pdf/JISA2025Yang.pdf"
       }
     ]
   },
@@ -22,7 +22,6 @@
     "title": "Bio-inspired Filtration Membranes for Advanced Water Purification",
     "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Michael Taylor, David Chen, William Brown, Thomas Wright, Robert Williams",
     "type": "preprint",
-    "isFirstAuthor": true,
     "tags": [
       {
         "text": "Preprint",
