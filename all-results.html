@@ -145,29 +145,6 @@
     </script>
     <script src="script.js"></script>
     <script>
-fetch('data/all-publications.json')
-  .then(res => res.json())
-  .then(data => {
-    // 只取前6条
-    const publications = data.slice(0, 6);
-    const container = document.querySelector('.part-publications-list');
-    if (!container) return;
-    container.innerHTML = publications.map((pub, idx) => `
-      <div class="publication${pub.first_author ? ' first-author' : ''}">
-        <div class="pub-number">${idx + 1}</div>
-        <div class="pub-content">
-          <h3>${pub.title}</h3>
-          <div class="authors">${pub.authors}</div>
-          <div class="venue">${pub.venue}</div>
-          ${pub.tags && pub.tags.length ? `
-            <div class="pub-tags">
-              ${pub.tags.map(tag => `<span class="tag">${tag.name}</span>`).join('')}
-            </div>
-          ` : ''}
-        </div>
-      </div>
-    `).join('');
-  });
 </script>
 </body>
 </html>
