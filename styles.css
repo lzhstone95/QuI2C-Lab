@@ -1591,11 +1591,12 @@ footer {
 }
 
 .student-photo {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 65%;
     margin-bottom: 1rem;
+    border: 0.5px solid #324789;
 }
 
 /* 响应式：小屏幕一列 */
