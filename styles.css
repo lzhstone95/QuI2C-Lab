@@ -1595,7 +1595,6 @@ footer {
     object-fit: cover;
     border-radius: 20px; /* 圆角矩形，非正圆 */
     margin-bottom: 1rem;
-    border: 0.5px solid #324789;
 }
 
 /* 响应式：小屏幕一列 */
