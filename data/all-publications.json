@@ -56,6 +56,11 @@
         "text": "PDF",
         "class": "code-tag",
         "link": "#"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": "#"
       }
     ]
   },
@@ -79,7 +84,7 @@
       {
         "text": "DOI",
         "class": "code-tag",
-        "link": "assets/pdf/JISA2025Yang.pdf"
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S2214212625001863"
       }
     ],
     "abstract": "Facial information is widely used in security fields like identity authentication. But the large number offacial images online makes them vulnerable to unauthorized capture, posing privacy and security risks.Existing face privacy protection methods aim to mitigate these risks. However, many of these methods lackreversibility, making it impossible to restore the original face when needed. Additionally, they often neglectmodel intellectual property (IP) protection, leaving methods vulnerable to unauthorized stealing. Therefore, toaddress the shortcomings of existing face privacy protection methods in IP protection, this paper proposes aninvertible privacy protection mask network with IP protection. The proposed method consists of two main parts:facial privacy protection and IP protection. For facial privacy protection, the mask generator replaces facialfeatures with other faces and generates the mask, which is then embedded with the watermark to generate thewatermarked mask. This watermarked mask conceals the original face by the putting on mask network, andthe original face can be restored by the putting off mask network. For IP protection, the watermark extractornetwork is a key component that can extract the watermark from images of the sender, receiver and attackerto verify the method’s IP. Experimental results show that the proposed method has good effects in both privacyprotection and IP protection, providing double security for face privacy protection."
