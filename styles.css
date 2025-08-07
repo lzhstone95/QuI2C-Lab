@@ -1585,6 +1585,11 @@ footer {
     transition: box-shadow 0.2s;
 }
 
+.student-card h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
 .student-card:hover {
     box-shadow: 0 4px 16px rgba(50,71,137,0.15);
 }
