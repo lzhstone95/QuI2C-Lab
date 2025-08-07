@@ -1569,3 +1569,39 @@ footer {
 .visitors-section .section-title {
     margin: 0 auto 2rem;
 }
+
+.students-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.student-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.student-card:hover {
+    box-shadow: 0 4px 16px rgba(50,71,137,0.15);
+}
+
+.student-photo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 2px solid #324789;
+}
+
+/* 响应式：小屏幕一列 */
+@media (max-width: 900px) {
+    .students-grid {
+        grid-template-columns: 1fr;
+    }
+}
