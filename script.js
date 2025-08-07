@@ -499,10 +499,26 @@ function loadPartialPublications() {
                     const tagsContainer = document.createElement('div');
                     tagsContainer.className = 'pub-tags';
                     pub.tags.forEach(tag => {
-                        const tagSpan = document.createElement('span');
-                        tagSpan.className = `tag ${tag.class}`;
-                        tagSpan.textContent = tag.text;
-                        tagsContainer.appendChild(tagSpan);
+                        if (typeof tag === 'string') {
+                            const tagSpan = document.createElement('span');
+                            tagSpan.className = 'tag';
+                            tagSpan.textContent = tag;
+                            tagsContainer.appendChild(tagSpan);
+                        } else if (tag && typeof tag === 'object') {
+                            if (tag.link) {
+                                const tagLink = document.createElement('a');
+                                tagLink.href = tag.link;
+                                tagLink.className = `tag ${tag.class || ''}`;
+                                tagLink.textContent = tag.text || '';
+                                tagLink.target = '_blank';
+                                tagsContainer.appendChild(tagLink);
+                            } else {
+                                const tagSpan = document.createElement('span');
+                                tagSpan.className = `tag ${tag.class || ''}`;
+                                tagSpan.textContent = tag.text || '';
+                                tagsContainer.appendChild(tagSpan);
+                            }
+                        }
                     });
                     contentElement.appendChild(tagsContainer);
                 }
