@@ -438,87 +438,79 @@ function setupLinkObserver() {
     observer.observe(targetNode, config);
 }
 
-// 新增：加载前6条数据到部分显示区域
+// Function to load partial publications (for all-results page)
 function loadPartialPublications() {
     let publicationsJsonPath = 'data/all-publications.json';
     if (window.location.pathname.includes('/pages/')) {
         publicationsJsonPath = '../data/all-publications.json';
     }
 
-    const partialContainer = document.querySelector('.part-publications-list');
-    if (!partialContainer) return;
-    
+    const partList = document.querySelector('.part-publications-list');
+    if (!partList) return;
+
+    // 清空旧内容
+    partList.innerHTML = '';
+
     fetch(publicationsJsonPath)
         .then(response => response.json())
         .then(publications => {
-            // 只获取前8条数据
-            const partialPublications = publications.slice(0, 6);
-            
-            // 渲染前8条数据
-            partialPublications.forEach(pub => {
+            // 只取前6条
+            publications.slice(0, 6).forEach((pub, idx) => {
                 const pubElement = document.createElement('div');
-                const classes = ['publication', pub.type];
-                if (pub.isFirstAuthor) classes.push('first-author');
-                pubElement.className = classes.join(' ');
-                
-                // 创建出版物编号
+                pubElement.className = 'publication';
+
+                // 编号
                 const numberElement = document.createElement('span');
                 numberElement.className = 'pub-number';
-                numberElement.textContent = pub.number;
-                
-                // 创建内容容器
+                numberElement.textContent = idx + 1;
+
+                // 内容
                 const contentElement = document.createElement('div');
                 contentElement.className = 'pub-content';
-                
-                // 添加标题
+
+                // 标题
                 const titleElement = document.createElement('h3');
                 titleElement.textContent = pub.title;
                 contentElement.appendChild(titleElement);
-                
-                // 添加作者
+
+                // 作者
                 const authorsElement = document.createElement('p');
                 authorsElement.className = 'authors';
                 authorsElement.innerHTML = pub.authors;
                 contentElement.appendChild(authorsElement);
-                
-                // 添加期刊/会议信息
+
+                // 期刊/会议
                 if (pub.venue) {
                     const venueElement = document.createElement('p');
                     venueElement.className = 'venue';
                     venueElement.textContent = pub.venue;
                     contentElement.appendChild(venueElement);
                 }
-                
-                // 添加标签
-                const tagsContainer = document.createElement('div');
-                tagsContainer.className = 'pub-tags';
-                
-                pub.tags.forEach(tag => {
-                    if (tag.link) {
-                        const tagLink = document.createElement('a');
-                        tagLink.href = tag.link;
-                        tagLink.className = `tag ${tag.class}`;
-                        tagLink.textContent = tag.text;
-                        tagLink.target = '_blank';
-                        tagsContainer.appendChild(tagLink);
-                    } else {
+
+                // 标签
+                if (Array.isArray(pub.tags) && pub.tags.length > 0) {
+                    const tagsContainer = document.createElement('div');
+                    tagsContainer.className = 'pub-tags';
+                    pub.tags.forEach(tag => {
                         const tagSpan = document.createElement('span');
-                        tagSpan.className = `tag ${tag.class}`;
-                        tagSpan.textContent = tag.text;
+                        tagSpan.className = 'tag';
+                        tagSpan.textContent = tag;
                         tagsContainer.appendChild(tagSpan);
-                    }
-                });
-                
-                contentElement.appendChild(tagsContainer);
-                
-                // 组合元素
+                    });
+                    contentElement.appendChild(tagsContainer);
+                }
+
                 pubElement.appendChild(numberElement);
                 pubElement.appendChild(contentElement);
-                partialContainer.appendChild(pubElement);
+                partList.appendChild(pubElement);
             });
         })
         .catch(error => {
-            console.error('Error loading partial publications data:', error);
+            console.error('Error loading partial publications:', error);
         });
 }
 
+// 页面加载时自动调用（只在all-results页面）
+if (window.location.pathname.includes('all-results')) {
+    loadPartialPublications();
+}
