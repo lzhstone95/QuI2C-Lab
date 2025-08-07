@@ -493,8 +493,8 @@ function loadPartialPublications() {
                     tagsContainer.className = 'pub-tags';
                     pub.tags.forEach(tag => {
                         const tagSpan = document.createElement('span');
-                        tagSpan.className = 'tag';
-                        tagSpan.textContent = tag;
+                        tagSpan.className = `tag ${tag.class}`;
+                        tagSpan.textContent = tag.text;
                         tagsContainer.appendChild(tagSpan);
                     });
                     contentElement.appendChild(tagsContainer);
