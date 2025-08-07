@@ -159,6 +159,11 @@ fetch('data/all-publications.json')
           <h3>${pub.title}</h3>
           <div class="authors">${pub.authors}</div>
           <div class="venue">${pub.venue}</div>
+          ${pub.tags && pub.tags.length ? `
+            <div class="pub-tags">
+              ${pub.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+          ` : ''}
         </div>
       </div>
     `).join('');
