@@ -273,7 +273,7 @@ function loadPublications() {
                 if (pub.abstract && pub.abstract.trim() !== "") {
                     const abstractElement = document.createElement('p');
                     abstractElement.className = 'abstract';
-                    abstractElement.innerHTML = pub.abstract;
+                    abstractElement.innerHTML = '<strong>Abstract：</strong> ' + pub.abstract;
                     contentElement.appendChild(abstractElement);
                 }
                 
@@ -527,7 +527,7 @@ function loadPartialPublications() {
                 if (pub.abstract && pub.abstract.trim() !== "") {
                     const abstractElement = document.createElement('p');
                     abstractElement.className = 'abstract';
-                    abstractElement.innerHTML = pub.abstract;
+                    abstractElement.innerHTML = '<strong>Abstract：</strong> ' + pub.abstract;
                     contentElement.appendChild(abstractElement);
                 }
 
