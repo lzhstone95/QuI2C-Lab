@@ -269,6 +269,13 @@ function loadPublications() {
                 });
                 
                 contentElement.appendChild(tagsContainer);
+
+                if (pub.abstract && pub.abstract.trim() !== "") {
+                    const abstractElement = document.createElement('p');
+                    abstractElement.className = 'abstract';
+                    abstractElement.innerHTML = pub.abstract;
+                    contentElement.appendChild(abstractElement);
+                }
                 
                 // Combine elements and add to publications list
                 pubElement.appendChild(numberElement);
@@ -500,6 +507,14 @@ function loadPartialPublications() {
                     contentElement.appendChild(tagsContainer);
                 }
 
+                // 摘要
+                if (pub.abstract && pub.abstract.trim() !== "") {
+                    const abstractElement = document.createElement('p');
+                    abstractElement.className = 'abstract';
+                    abstractElement.innerHTML = pub.abstract;
+                    contentElement.appendChild(abstractElement);
+                }
+
                 pubElement.appendChild(numberElement);
                 pubElement.appendChild(contentElement);
                 partList.appendChild(pubElement);
@@ -512,5 +527,5 @@ function loadPartialPublications() {
 
 // 页面加载时自动调用（只在all-results页面）
 if (window.location.pathname.includes('all-results')) {
-    loadPartialPublications();
+    document.addEventListener('DOMContentLoaded', loadPartialPublications);
 }

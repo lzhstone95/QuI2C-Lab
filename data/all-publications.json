@@ -75,8 +75,14 @@
         "text": "PDF",
         "class": "code-tag",
         "link": "assets/pdf/JISA2025Yang.pdf"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": "assets/pdf/JISA2025Yang.pdf"
       }
-    ]
+    ],
+    "abstract": ""
   }
 
 ]
