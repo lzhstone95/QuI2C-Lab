@@ -750,7 +750,7 @@ nav {
 
 /* Publications */
 .publication-filter {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     display: flex;
     gap: 1rem;
 }
