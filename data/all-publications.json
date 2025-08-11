@@ -1,54 +1,9 @@
 [
-    {
-    "number": 5,
-    "title": "Tree-based Networking Design: Towards Future Large-scale Quantum Local Area Networks",
-    "authors": "Zhonghui Li, Yang Yang*, Jian Li, Kaiping Xue*, and Hyundong Shin",
-    "type": "preprint",
-    "venue": "submitted to IEEE Journal on Selected Areas in Communications, 2025.",
-    "tags": [
-      {
-        "text": "Under Review",
-        "class": "preprint-tag"
-      }
-    ],
-    "abstract": "To advance the widespread application of quantum information technology, a network infrastructure is required to support the interconnection of numerous quantum nodes. Based on the fact that quantum nodes are interconnected by sharing entangled states, this study proposes a tree-based networking design that takes entangled sources as the central components of Quantum Local Area Networks (QLANs) to improve entanglement connectivity between quantum nodes. Specifically, each entangled source serves as a branch point in the tree-based structure, efficiently enabling the physical and entanglement-based logical interconnection of multiple quantum end nodes within a local area while reducing network deployment costs. We further introduce a dynamic entanglement distribution scheduling strategy and an entanglement connectivity-based path selection algorithm, thereby realizing efficient and robust entanglement distribution between quantum nodes in both inter-QLAN and intra-QLAN. Finally, we implement a quantum network with a backbone and ten tree-based QLANs on a simulation platform to evaluate the proposed networking design. Extensive results demonstrate that the tree-based networking design can effectively promote the interconnection between quantum nodes by long-distance entanglement distribution. Our work offers meaningful insights for future quantum networks."
-  },
-  
-  {
-    "number": 4,
-    "title": "HybridED: A Hybrid Entanglement Distribution Design for Efficient Quantum Teleportation in Quantum Communication Networks",
-    "authors": "Zhonghui Li, Jian Li, Kaiping Xue*, and Hyundong Shin*",
-    "type": "preprint",
-    "venue": "submitted to IEEE Transactions on Communications, 2025.",
-    "tags": [
-      {
-        "text": "Under Review",
-        "class": "preprint-tag"
-      }
-    ],
-    "abstract": "Entanglement is the crucial resource for teleporting quantum bits (qubits) in quantum communication networks. However, the imperfect entanglement swapping significantly degrades the rate and fidelity of long-distance entanglement distribution. To alleviate the negative effects of imperfect entanglement swapping, this paper proposes a hybrid entanglement distribution design, named HybridED, aiming at improving the performance of qubit teleportation. Specifically, HybridED mainly consists of two important schemes: the Entanglement Distribution Decision Scheme (EDDS) and the Entanglement Resource Allocation Scheme (ERAS). EDDS decides the role of each quantum repeater to establish heterogeneous entanglements with different hop spans. This scheme guarantees the success probability of entanglement swapping while effectively reducing the number of swap operations, thereby alleviating the degradation of rate and fidelity. To reduce the waste of entanglement resources, ERAS adopts a priority-based design to determine the order in which each request is processed and then allocates high-fidelity entanglement resources in a greedy manner. ERAS improves resource utilization and thus enhances network throughput. Extensive simulations demonstrate that HybridED outperforms four representative schemes regarding throughput, average fidelity, and the utilization of allocated entanglement resources, thus facilitating efficient qubit teleportation."
-  },
-
-  {
-    "number": 3,
-    "title": "BC-PQSMDP: Integrating ML-KEM and Blockchain towards Quantum-Resistant Medical Data Protection",
-    "authors": "Wei Wu, Zhonghui Li*, and Yang Yang",
-    "type": "preprint",
-    "venue": "submitted to IEEE Internet of Things Journal, 2025.",
-    "tags": [
-      {
-        "text": "Under Review",
-        "class": "preprint-tag"
-      }
-    ],
-     "abstract": "In the healthcare environment of the Internet of Things (IoT), sensitive medical data such as electronic health records and medical images are increasingly vulnerable to quantum attacks due to the limitations of traditional encryption systems. To address this security issue, this paper proposes a blockchain-based post-quantum security scheme (named BC-PQSMDP) that integrates lattice-based Post-Quantum Cryptography (PQC), decentralized storage, and IoT data sharing to ensure security protection and transparent access control for medical data. By leveraging ML-KEM, a lattice-based Key Encapsulation Mechanism (KEM) selected by NIST PQC standardization, BC-PQSMDP enables quantum-resistant key exchange. Meanwhile, the blockchain technology ensures decentralized medical data integrity and transparent access control, and Shamir’s secret sharing is further adopted to enhance fault tolerance and security in distributed storage. Security analysis demonstrates that BC-PQSMDP provides quantum-resistant protection for medical data by integrating ML-KEM with blockchain-based access control. In addition, simulation results show the low computational overhead of the proposed framework, thus enhancing the deployability and scalability of BC-PQSMDP."
-  },
-
   {
     "number": 2,
     "title": "Al-Generated Image Detection Algorithm Based on Classical-Quantum Hybrid Neural Network",
     "authors": "Yang Yang, Xiangjie Huang, Han Fang, Weiming Zhang",
-    "type": "journal",
+    "type": "2025",
     "venue": " Accepted by Science China Information Sciences, 2025.",
     "tags": [
       {
@@ -73,7 +28,7 @@
     "number": 1,
     "title": "IPMN: Invertible privacy-preserving mask network with intellectual property protection",
     "authors": "Yang Yang*, Xiangjie Huang, Han Fang, Weiming Zhang",
-    "type": "journal",
+    "type": "2025",
     "venue": "Journal of Information Security and Applications, vol. 93, pp. 104149, 2025.",
     "tags": [
       {
