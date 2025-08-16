@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>团队成员-QuI2C Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-info">
+                    <!-- Profile info will be loaded from JSON -->
+                </div>
+                <div class="profile-image">
+                    <img src="assets/ahu-logo.svg" id="profile-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">主页</a></li>
+                <li><a href="all-news.html">研究动态</a></li>
+                <li><a href="interests.html">研究方向</a></li>
+                <li><a href="all-results.html">研究成果</a></li>
+                <li><a href="all-members.html" class="active">团队成员</a></li>
+                <li><a href="management.html">规章制度</a></li>
+                <li><a href="album.html">活动相册</a></li>
+                <li><a href="index-english.html">English</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">教师队伍</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="edu-content-wrapper">
+                                <div class="edu-text">
+                                    <h3><a href="https://lzhstone95.github.io/Homepage/">李忠辉</a></h3>
+                                    <p class="timeline-date">博士，预聘副教授，IEEE会员 <br>邮箱: leestone95(at)ahu.edu.cn</p>
+                                    <p style="text-align: justify;">李忠辉，男，博士，IEEE会员，CCF会员，安徽大学电子信息工程学院绿通预聘副教授。2018年6月毕业于电子科技大学信息与软件工程学院，获得学士学位。2023年6月毕业于中国科学技术大学网络空间安全学院，获得博士学位。2023年6月至2025年3月，在中国科学技术大学信息科学技术学院以博士后研究员身份开展工作。2025年4月，以引进人才身份加入安徽大学电子信息工程学院。个人主要从事量子通信与网络、量子计算与智能算法方面的学术研究，先后主持国家自然科学基金青年项目、安徽省自然科学基金青年项目等项目3项，参与安徽省量子信息引导项目，科技创新2030-量子通信与计算重大专项子课题等项目2项。截至目前，个人已在包括IEEE Communications Surveys and Tutorials、IEEE Journal on Selected Areas in Communications、IEEE/ACM Transactions on Networking(ToN)、IEEE Transactions on Communications(TCOM)、IEEE Transactions on Network Service and Management(TNSM) 等在内的国际权威学术期刊/会议累计发表24篇学术论文，其中第一/通讯作者论文10篇，已授权发明专利多项。先后获得第七届中国科协优秀科技论文奖、2024年度安徽省新时代育人质量工程省级优秀博士论文奖和IEEE International Conference on Communications 2025最佳论文奖，并多次受邀担任IEEE TCOM、IEEE TNSM、IEEE Network、Quantum Information Processing等多个权威期刊审稿人。<a href="https://lzhstone95.github.io/Homepage/">[个人主页]</a></p>
+                                </div>
+                                <div class="school-logo">
+                                    <a href="https://lzhstone95.github.io/Homepage/"><img src="assets/lzh.jpg" alt="Northern Technical University" class="edu-logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="copyright-year"></span> Lab for Quantum Information and Intelligent Computing (QuI2C). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set copyright year
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        
+        // Mobile navigation horizontal scroll handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelector('.nav-links');
+            if (navLinks) {
+                // Check if scrollable
+                const checkScrollable = () => {
+                    const isScrollable = navLinks.scrollWidth > navLinks.clientWidth;
+                    document.querySelector('nav .container').classList.toggle('has-scroll', isScrollable);
+                };
+                
+                // Check on load and resize
+                checkScrollable();
+                window.addEventListener('resize', checkScrollable);
+                
+                // Scroll to active link
+                const activeLink = navLinks.querySelector('a.active');
+                if (activeLink) {
+                    const activeLi = activeLink.closest('li');
+                    if (activeLi) {
+                        setTimeout(() => {
+                            // Center the active link
+                            const scrollPos = activeLi.offsetLeft - (navLinks.clientWidth / 2) + (activeLi.offsetWidth / 2);
+                            navLinks.scrollLeft = Math.max(0, scrollPos);
+                        }, 100);
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
