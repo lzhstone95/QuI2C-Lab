@@ -1,0 +1,11 @@
+@article{Li2025Integration,
+  author={Li, Jian and Zheng, Peng and Li, Zhonghui and Xue, Kaiping and Xie, Zhilin and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Network}, 
+  title={Integration of Quantum Key Distribution Networks and Classical Networks: An Evolution Perspective}, 
+  year={2025},
+  volume={39},
+  number={3},
+  pages={180-187},
+  doi={10.1109/MNET.2025.3537691}
+  }
+

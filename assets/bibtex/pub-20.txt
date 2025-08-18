@@ -1,0 +1,11 @@
+@INPROCEEDINGS{Yang2025Demand,
+  author={Yang, Yuqi and Li, Zhonghui and Li, Jian and Heng, Shaochuang and Chen, Lutong and Sun, Qibin and Lu, Jun},
+  booktitle={Proceedings of the International Conference on Quantum Communications, Networking, and Computing (QCNC)}, 
+  title={An On-demand Routing Scheme with {QoS} Provisioning for {QKD} Networks}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={224-231},
+  doi={10.1109/QCNC64685.2025.00044}
+}
+

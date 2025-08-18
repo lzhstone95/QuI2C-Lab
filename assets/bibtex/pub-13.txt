@@ -1,0 +1,10 @@
+@INPROCEEDINGS{Wang2024Efficient,
+  author={Wang, Zhaoying and Li, Jian and Li, Zhonghui and Chen, Lutong and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  booktitle={Proceedings of the International Conference on Quantum Communications, Networking, and Computing (QCNC)}, 
+  title={Efficient Routing Design Based on Entanglement Flow Loss Effect in Quantum Networks}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={9-16},
+  doi={10.1109/QCNC62729.2024.00032}
+  }

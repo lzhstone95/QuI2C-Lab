@@ -1,0 +1,9 @@
+@INPROCEEDINGS{Chen2024WireGuard,
+  author={Chen, Lutong and Xue, Kaiping and Li, Jian and Li, Zhonghui and Yu, Nenghai},
+  booktitle={Proceedings of the International Conference on Computing, Networking and Communications (ICNC)}, 
+  title={Security-Enhanced {WireGuard} Protocol Design Using Quantum Key Distribution}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={718-723},
+  doi={10.1109/ICNC59896.2024.10556292}}

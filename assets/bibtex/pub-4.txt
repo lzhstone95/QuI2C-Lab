@@ -1,0 +1,10 @@
+@article{Li2022Strategies,
+  author={Li, Zhonghui and Xue, Kaiping and Li, Jian and Yu, Nenghai and Wei, David S. L. and Li, Ruidong},
+  journal={IEEE Network}, 
+  title={Connection-Oriented and Connectionless Remote Entanglement Distribution Strategies in Quantum Networks}, 
+  year={2022},
+  volume={36},
+  number={6},
+  pages={150-156},
+  doi={10.1109/MNET.107.2100483}}
+

@@ -1,0 +1,10 @@
+@article{Li2025Decentralized,
+  author={Li, Jian and Zheng, Peng and Li, Zhonghui and Yang, Yuqi and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Journal on Selected Areas in Communications}, 
+  title={Decentralized Key Management and Service in Quantum Key Distribution Networks: An Experimental Implementation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JSAC.2025.3568040}
+  }

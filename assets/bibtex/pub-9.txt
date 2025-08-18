@@ -1,0 +1,10 @@
+@article{Chen2024REDP,
+  author={Chen, Lutong and Xue, Kaiping and Li, Jian and Li, Zhonghui and Li, Ruidong and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Journal on Selected Areas in Communications}, 
+  title={{REDP}: Reliable Entanglement Distribution Protocol Design for Large-Scale Quantum Networks}, 
+  year={2024},
+  volume={42},
+  number={7},
+  pages={1723-1737},
+  doi={10.1109/JSAC.2024.3380101}}
+

@@ -1,0 +1,10 @@
+@article{Li2023Swappingbased,
+  author={Li, Zhonghui and Li, Jian and Xue, Kaiping and Wei, David S. L. and Li, Ruidong and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Transactions on Network and Service Management}, 
+  title={Swapping-Based Entanglement Routing Design for Congestion Mitigation in Quantum Networks}, 
+  year={2023},
+  volume={20},
+  number={4},
+  pages={3999-4012},
+  doi={10.1109/TNSM.2023.3275815}}
+

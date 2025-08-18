@@ -1,0 +1,10 @@
+@article{Li2021Building,
+  author={Li, Zhonghui and Xue, Kaiping and Li, Jian and Yu, Nenghai and Liu, Jianqing and Wei, David S. L. and Sun, Qibin and Lu, Jun},
+  journal={China Communications}, 
+  title={Building a large-scale and wide-area quantum {Internet} based on an {OSI}-alike model}, 
+  year={2021},
+  volume={18},
+  number={10},
+  pages={1-14},
+  doi={10.23919/JCC.2021.10.001}}
+

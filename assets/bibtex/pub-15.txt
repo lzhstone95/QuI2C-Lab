@@ -1,0 +1,9 @@
+@article{Li2025DRMETP,
+  author={Li, Jian and Wang, Zhaoying and Xue, Kaiping and Li, Zhonghui and Li, Ruidong and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Transactions on Networking}, 
+  title={{DRM-ETP}: A Dynamic Rate Matching-Based Entanglement Transport Protocol in Quantum Networks}, 
+  year={2025},
+  volume={33},
+  number={2},
+  pages={835-848},
+  doi={10.1109/TNET.2024.3507785}}

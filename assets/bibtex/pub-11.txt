@@ -1,0 +1,9 @@
+@INPROCEEDINGS{Wu2024Distributed,
+  author={Wu, Jiaqi and Chen, Lutong and Zhang, Jing and Huang, Zixuan and Li, Zhonghui and Li, Jian and Xue, Kaiping and Yu, Nenghai},
+  booktitle={Proceedings of the IEEE International Conference on Communications (ICC)}, 
+  title={A Distributed Routing Protocol Based on Key Reservation in Quantum Key Distribution Networks}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={509-514},
+  doi={10.1109/ICC51166.2024.10622992}}

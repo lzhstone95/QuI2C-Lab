@@ -1,0 +1,9 @@
+@article{Li2023Entanglement,
+  author={Li, Zhonghui and Xue, Kaiping and Li, Jian and Chen, Lutong and Li, Ruidong and Wang, Zhaoying and Yu, Nenghai and Wei, David S. L. and Sun, Qibin and Lu, Jun},
+  journal={IEEE Communications Surveys \& Tutorials}, 
+  title={Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies, Challenges, and Research Directions}, 
+  year={2023},
+  volume={25},
+  number={4},
+  pages={2133-2189},
+  doi={10.1109/COMST.2023.3294240}}

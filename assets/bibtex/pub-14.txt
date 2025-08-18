@@ -1,0 +1,11 @@
+@article{Li2025NarrowGap,
+  author={Li, Zhonghui and Li, Jian and Xue, Kaiping and Chen, Lutong and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Transactions on Networking}, 
+  title={{NarrowGap}: Reducing Bottlenecks for End-to-End Entanglement Distribution in Quantum Networks}, 
+  year={2025},
+  volume={33},
+  number={1},
+  pages={162-177},
+  keywords={Quantum entanglement;Quantum networks;Resource management;Purification;Quantum channels;Qubit;Quantum decoherence;Photonics;Topology;Quantum repeaters;Quantum networks;entanglement distribution;entanglement swapping;congestion mitigation},
+  doi={10.1109/TNET.2024.3476342}}
+

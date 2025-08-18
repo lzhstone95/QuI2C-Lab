@@ -1,0 +1,10 @@
+@article{Gao2025IPSeQ,
+  author={Gao, Xumin and Xue, Kaiping and Li, Jian and Li, Zhonghui and Wu, Jiaqi and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Communications Magazine}, 
+  title={{IPSeQ}: A Security-Enhanced IPSec Protocol Integrated with Quantum Key Distribution}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/MCOM.004.2400475}
+  }

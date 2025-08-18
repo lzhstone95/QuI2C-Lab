@@ -1,0 +1,11 @@
+@article{Zhao2025FairEAS,
+  author={Wang, Zhaoying and Li, Jian and Xue, Kaiping and Li, Zhonghui and Li, Ruidong and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Transactions on Communications}, 
+  title={{Fair-EAS}: Entanglement Allocation and Selection for Process-Oriented Fairness in Quantum Communication Networks}, 
+  year={2025},
+  volume={73},
+  number={7},
+  pages={4841-4854},
+  doi={10.1109/TCOMM.2024.3516497}
+  }
+
