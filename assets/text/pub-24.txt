@@ -1,0 +1,10 @@
+@article{Chen2025Asynchronous,
+  author={Chen, Yuxin and Li, Jian and Li, Zhonghui and Xue, Kaiping and Yu, Nenghai and Sun, Qibin and Lu, Jun},
+  journal={IEEE Transactions on Networking}, 
+  title={An Asynchronous Key Relay Protocol Design for Large-Scale Quantum Key Distribution Networks}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-16},
+  doi={10.1109/TON.2025.3579932}
+  }
