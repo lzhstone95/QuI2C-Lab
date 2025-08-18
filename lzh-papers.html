@@ -214,7 +214,7 @@ body {
                                     <td style="vertical-align:middle;">[24]</td>
                                     <td style="vertical-align:middle;">Yuxin Chen, Jian Li*, <b>Zhonghui Li</b>, Kaiping Xue, Nenghai Yu, Qibin Sun, and Jun Lu. <a href="https://ieeexplore.ieee.org/document/11048413"><i class="fas fa-external-link-alt"></i> An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution Networks,</a> <i>IEEE/ACM Transactions on Networking</i>, doi: 10.1109/TON.2025.3579932, 2025.</td>
                                     <td style="vertical-align:middle;text-align: center;">
-                                        <button class="role-btn" onclick="showRolePopup('@article{Chen2025Asynchronous,author={Chen, Yuxin and Li, Jian and Li, Zhonghui and Xue, Kaiping and Yu, Nenghai and Sun, Qibin and Lu, Jun},journal={IEEE Transactions on Networking}, title={An Asynchronous Key Relay Protocol Design for Large-Scale Quantum Key Distribution Networks}, year={2025},volume={}, number={}, pages={1-16},doi={10.1109/TON.2025.3579932}}')">BibTex</button></td>
+                                        <button class="role-btn" onclick="showRolePopup('assets/bibtex/pub-24.txt')">BibTex</button></td>
                                 </tr>
 
                                 <tr>
@@ -443,9 +443,17 @@ body {
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
     <script>
-        function showRolePopup(content) {
+function showRolePopup(txtPath) {
+    fetch(txtPath)
+        .then(res => res.text())
+        .then(content => {
             document.getElementById('role-popup-text').textContent = content;
             document.getElementById('role-popup').style.display = 'block';
+        })
+        .catch(() => {
+            document.getElementById('role-popup-text').textContent = '内容加载失败';
+            document.getElementById('role-popup').style.display = 'block';
+        });
         }
         function closeRolePopup() {
             document.getElementById('role-popup').style.display = 'none';
