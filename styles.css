@@ -68,7 +68,6 @@ header {
     height: 160px;
     border-radius: 1px;
     object-fit: cover;
-    filter: drop-shadow(rgb(53, 88, 187) 0 4px 12px);
 }
 
 h1 {
