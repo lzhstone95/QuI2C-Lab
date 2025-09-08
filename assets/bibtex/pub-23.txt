@@ -3,9 +3,9 @@
   journal={IEEE Transactions on Network and Service Management}, 
   title={An Efficient and Robust Resource Allocation Method for Quantum Key Distribution Networks}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={43},
+  number={8},
+  pages={2782--2797},
   doi={10.1109/TNSM.2025.3577285}
   }
 
