@@ -3,7 +3,6 @@
   booktitle={Proceedings of the IEEE International Conference on Communications (ICC)}, 
   title={A Distributed Routing Protocol Based on Key Reservation in Quantum Key Distribution Networks}, 
   year={2024},
-  volume={},
-  number={},
+  address={Denver, CO, USA},
   pages={509--514},
   doi={10.1109/ICC51166.2024.10622992}}
