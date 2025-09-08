@@ -3,9 +3,7 @@
   booktitle={Proceedings of the International Wireless Communications and Mobile Computing (IWCMC)}, 
   title={{SwappingBoost}: Optimizing Entanglement Routing by Mitigating Bottlenecks in Quantum Networks}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-6},
-  keywords={Wireless communication;Quantum entanglement;Simulation;Routing;Throughput;Hardware;Resource management;Quantum networks;Optimization;Mobile computing;Entanglement Routing;Resource Allocation;Sequential Entanglement Swapping;Quantum Networks},
+  address={Abu Dhabi, United Arab Emirates},
+  pages={1--6},
   doi={10.1109/IWCMC65282.2025.11059641}}
 

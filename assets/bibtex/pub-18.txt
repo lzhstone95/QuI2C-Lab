@@ -5,6 +5,6 @@
   year={2025},
   volume={},
   number={},
-  pages={1-8},
+  pages={1--8},
   doi={10.1109/MCOM.004.2400475}
   }

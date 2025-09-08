@@ -3,8 +3,8 @@
   journal={IEEE Journal on Selected Areas in Communications}, 
   title={Decentralized Key Management and Service in Quantum Key Distribution Networks: An Experimental Implementation}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={43},
+  number={8},
+  pages={2782--2797},
   doi={10.1109/JSAC.2025.3568040}
   }
