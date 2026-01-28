@@ -1,10 +1,10 @@
-@article{Chen2025Asynchronous,
-author={Chen, Yuxin and Li, Jian and Li, Zhonghui and Xue, Kaiping and Yu, Nenghai and Sun, Qibin and Lu, Jun},
-journal={IEEE Transactions on Networking}, 
-title={An Asynchronous Key Relay Protocol Design for Large-Scale Quantum Key Distribution Networks}, 
-year={2025},
-volume={}, 
-number={}, 
-pages={1--16},
-doi={10.1109/TON.2025.3579932}
+@INPROCEEDINGS{Zhang2025User,
+  author={Zhang, Ye and Wang, Feng and Zeng, Jianbin and Chen, Lutong and Huang, Xuanbo and Li, Zhonghui and Xue, Kaiping},
+  booktitle={Proceedings of 2025 IEEE International Conference on Communications}, 
+  title={User Behavior-Based Dynamic Authentication Design for Enhanced Identity Security}, 
+  year={2025},
+  address={Montreal, QC, Canada},
+  pages={1--6},
+  doi={10.1109/ICC52391.2025.11161955}
 }
+
