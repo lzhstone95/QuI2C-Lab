@@ -1632,3 +1632,16 @@ footer {
     width: 100%;
     display: block;
 }
+
+.tag {
+    display: inline-block;
+    min-width: 60px;
+    padding: 4px 8px;
+    margin-right: 12px;
+    background-color: #00629B;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+}
