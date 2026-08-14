@@ -1,6 +1,32 @@
 [
 
   {
+    "number": 7,
+    "title": "Q-Tag: Watermarking Quantum Circuit Generative Models",
+    "authors": "Yang Yang, Yuzhu Long, Han Fang, Zhaoyun Chen, Zhonghui Li, Weiming Zhang, Guoping Guo",
+    "type": "2026",
+    "venue": "SCIENCE CHINA Information Sciences, vol. 69, no. 180504 2026.",
+    "tags": [
+      {
+        "text": "SCIS",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "assets/pubs/TCSVT2026Yang.pdf"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": "https://link.springer.com/article/10.1007/s11432-025-5016-2"
+      }
+    ]
+  },
+
+
+
+  {
     "number": 6,
     "title": "融合ML-KEM与区块链的抗量子医疗数据保护方案",
     "authors": "吴伟，李忠辉*，杨杨",
