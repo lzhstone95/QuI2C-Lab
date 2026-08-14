@@ -1,10 +1,111 @@
 [
+
+  {
+    "number": 6,
+    "title": "融合ML-KEM与区块链的抗量子医疗数据保护方案",
+    "authors": "吴伟，李忠辉*，杨杨",
+    "type": "2026",
+    "venue": "网络空间安全科学学报, 2026.",
+    "tags": [
+      {
+        "text": "JCyber",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "assets/pubs/TCSVT2026Yang.pdf"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11527336"
+      }
+    ]
+  },
+
+
+  {
+    "number": 5,
+    "title": "Looks Similar and Looks Good: A No-reference Image Quality Loss for Watermarking Framework",
+    "authors": "Yang Yang, Kaiyang Xing, Liyuan Zhou, Lei Zhao, Han Fang, Zhaoyun Chen, Weiming Zhang",
+    "type": "2026",
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology, 2026.",
+    "tags": [
+      {
+        "text": "TCSVT",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "assets/pubs/TCSVT2026Yang.pdf"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11527336"
+      }
+    ]
+  },
+
+
+
+  {
+    "number": 4,
+    "title": "不同量子计算体系下的量子机器学习算法综述",
+    "authors": "杨杨，赵润盛，李忠辉，薛程，陈昭昀*, 屈磊",
+    "type": "2026",
+    "venue": "国防科技大学学报, vol. 5, pp. 9376-9390, 2026.",
+    "tags": [
+      {
+        "text": "JNUDT",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "assets/pubs/JNUDT2026Yang.pdf"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": "#"
+      }
+    ]
+  },
+
+
+  {
+    "number": 3,
+    "title": "MixED: A Mixed Entanglement Distribution Design for Efficient Quantum Teleportation in Quantum Communication Networks",
+    "authors": "Zhonghui Li, Jian Li, Kaiping Xue*, Hyundong Shin*",
+    "type": "2026",
+    "venue": "IEEE Transactions on Communications, vol. 74, pp. 9376-9390, 2026.",
+    "tags": [
+      {
+        "text": "TCOM",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "assets/pubs/TCOM2026Li.pdf"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11543377"
+      }
+    ]
+  },
+
   {
     "number": 2,
     "title": "Al-Generated Image Detection Algorithm Based on Classical-Quantum Hybrid Neural Network",
     "authors": "Yang Yang, Xiangjie Huang, Han Fang, Weiming Zhang",
-    "type": "2025",
-    "venue": " Accepted by Science China Information Sciences, 2025.",
+    "type": "2026",
+    "venue": "Science China Information Sciences, vol. 69, no. 1, pp.112501, 2026.",
     "tags": [
       {
         "text": "SCIS",
@@ -13,12 +114,12 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "#"
+        "link": "assets/pubs/SCIS2026Yang.pdf"
       },
       {
         "text": "DOI",
         "class": "code-tag",
-        "link": "#"
+        "link": "https://link.springer.com/article/10.1007/s11432-024-4475-4"
       }
     ]
   },
