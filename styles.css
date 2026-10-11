@@ -1651,9 +1651,6 @@ footer {
     box-shadow: 0 4px 14px rgba(50, 71, 137, 0.18);
 }
 
-#research-interests .area-image:hover img {
-    transform: scale(1.05);
-}
 #research-interests .area-text {
     flex: 7;
     display: flex;
