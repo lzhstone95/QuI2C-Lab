@@ -1645,7 +1645,6 @@ footer {
 #research-interests .area-image {
     flex: 3;
     position: relative;
-    border-radius: 8px;
     overflow: hidden;
     min-height: 280px;
 }
