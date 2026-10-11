@@ -1656,9 +1656,6 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
-#research-interests .area-text p {
-    background-color: #ffffff;
-}
 @media (max-width: 768px) {
     #research-interests .area-wrapper {
         flex-direction: column;
