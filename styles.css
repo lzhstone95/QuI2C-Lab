@@ -1643,7 +1643,7 @@ footer {
     align-items: stretch;
 }
 #research-interests .area-image {
-    flex: 3.5;
+    flex: 3;
     position: relative;
     border-radius: 8px;
     overflow: hidden;
@@ -1663,7 +1663,7 @@ footer {
     transform: scale(1.05);
 }
 #research-interests .area-text {
-    flex: 6.5;
+    flex: 7;
     display: flex;
     flex-direction: column;
     justify-content: center;
