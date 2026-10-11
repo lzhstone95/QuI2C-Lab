@@ -1632,34 +1632,3 @@ footer {
     width: 100%;
     display: block;
 }
-
-/* ===== interests.html 研究方向页：左图右文布局（占宽 3.5 : 6.5），仅作用于 #research-interests 区块 ===== */
-#research-interests .research-area {
-    text-align: left;
-}
-#research-interests .area-wrapper {
-    display: flex;
-    gap: 24px;
-    align-items: stretch;
-}
-#research-interests .area-image {
-    flex: 3;
-    position: relative;
-    overflow: hidden;
-    min-height: 280px;
-}
-
-#research-interests .area-text {
-    flex: 7;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-@media (max-width: 768px) {
-    #research-interests .area-wrapper {
-        flex-direction: column;
-    }
-    #research-interests .area-image {
-        min-height: 220px;
-    }
-}
