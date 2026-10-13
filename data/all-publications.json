@@ -1,6 +1,30 @@
 [
 
   {
+    "number": 8,
+    "title": "基于量子-经典混合神经网络的AI生成文本检测方案",
+    "authors": "罗捷文, 李忠辉*, 吴萍, 杨杨",
+    "type": "2026",
+    "venue": "计算机科学，2026.",
+    "tags": [
+      {
+        "text": "CS",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "assets/pubs/TCSVT2026Yang.pdf"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": ""
+      }
+    ]
+  },
+
+  {
     "number": 7,
     "title": "Q-Tag: Watermarking Quantum Circuit Generative Models",
     "authors": "Yang Yang, Yuzhu Long, Han Fang, Zhaoyun Chen, Zhonghui Li, Weiming Zhang, Guoping Guo",
