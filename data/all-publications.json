@@ -1,6 +1,30 @@
 [
 
   {
+    "number": 9,
+    "title": "Tree-based Networking Scheme: Towards Future Large-scale Quantum Local Area Networks with High Entanglement Connectivity",
+    "authors": "Zhonghui Li, Yang Yang, Jian Li, Kaiping Xue",
+    "type": "2026",
+    "venue": "IEEE Journal on Selected Areas in Communications，2026.",
+    "tags": [
+      {
+        "text": "JSAC",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "f"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": ""
+      }
+    ]
+  },
+
+  {
     "number": 8,
     "title": "基于量子-经典混合神经网络的AI生成文本检测方案",
     "authors": "罗捷文, 李忠辉*, 吴萍, 杨杨",
