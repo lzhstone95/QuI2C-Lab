@@ -1,9 +1,33 @@
 [
 
   {
+    "number": 10,
+    "title": "DualGuard: A Dual Facial Privacy Protection Framework with Tampering Localization and Adversarial Example Mitigation",
+    "authors": "Yang Yang, Junhao Li, Zhonghui Li*, Han Fang",
+    "type": "2026",
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology, 2026.",
+    "tags": [
+      {
+        "text": "TCSVT",
+        "class": "venue-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "f"
+      },
+      {
+        "text": "DOI",
+        "class": "code-tag",
+        "link": ""
+      }
+    ]
+  },
+
+  {
     "number": 9,
     "title": "Tree-based Networking Scheme: Towards Future Large-scale Quantum Local Area Networks with High Entanglement Connectivity",
-    "authors": "Zhonghui Li, Yang Yang, Jian Li, Kaiping Xue",
+    "authors": "Zhonghui Li, Yang Yang*, Jian Li*, Kaiping Xue",
     "type": "2026",
     "venue": "IEEE Journal on Selected Areas in Communications，2026.",
     "tags": [
